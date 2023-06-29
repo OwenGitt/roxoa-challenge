@@ -1,0 +1,30 @@
+.grid {
+  display: grid;
+  grid:
+    "header header header header header"
+    "side main main main main"
+    "side main main main main"
+    "footer footer footer footer footer";
+  height: 100%;
+  min-height: 97.2vh;
+}
+
+.header {
+  grid-area: header;
+  background-color: aqua;
+}
+
+.main {
+  grid-area: main;
+  background-color: aliceblue;
+}
+
+.sidebar {
+  grid-area: side;
+  background-color: aquamarine;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: yellowgreen;
+}
