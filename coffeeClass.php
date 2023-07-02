@@ -42,7 +42,7 @@
 		echo "Here is your coffee, that will be £10 thank you!\n";
         echo "☕\n";
         echo "Hmm thats a bit small...\n";
-        echo "Heres a bigger one\n";
+        echo "Heres a bigger one I... prepared earlier... enjoy!\n";
         echo "             ) (\n";
         echo "            (   ) )\n";
         echo "              ) ( (\n";
