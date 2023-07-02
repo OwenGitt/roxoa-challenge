@@ -6,7 +6,7 @@ function reverse($stringToReverse) {
 else{
 $endChar = substr($stringToReverse, -1);
 	$restOfString = substr($stringToReverse, 0, -1);
-	return $endChar.=reverse($restOfString);		
+	return $endChar.= reverse($restOfString);		
 }
 }
 
